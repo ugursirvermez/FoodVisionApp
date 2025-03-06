@@ -19,6 +19,7 @@ Daha önceden belirttiğim gibi PyTorch_Education adlı eğitim repomda son olar
 İlk olarak modeli geliştirdiğim zaman eğitim modeli 5 döngüden oluşuyordu. 5 devir ile oluşan model çok fazla yanlış tahmin yapıyordu. Modelin 5 devirli eğitim sonucunu aşağıdaki grafikten görebilirsiniz:
 ![foodvision](https://github.com/user-attachments/assets/8eeda127-6b07-4b2e-a787-41ca6f759caa)
 
-Görüldüğü üzere test ve training eğrileri birbirinden oldukça uzak. Bende Google Colab Pro satın aldım ve modeli biraz daha eğitmeye karar verdim. Modeli 200 devirlik bir eğitime sokarsam eğrilerin birbirlerine yakınlaşacağını düşündüm. Modelin ilgili dosyasını tekrar güncellemiş oldum. Dolayısıyla sonuç grafiği aşağıdaki gibi oldu:
+Görüldüğü üzere test ve training eğrileri birbirinden oldukça uzak. Bende Google Colab Pro satın aldım ve modeli biraz daha eğitmeye karar verdim. Modeli 100 devirlik bir eğitime sokarsam eğrilerin birbirlerine yakınlaşacağını düşündüm. Modelin ilgili dosyasını tekrar güncellemiş oldum. Dolayısıyla sonuç grafiği aşağıdaki gibi oldu:
+![New100Epochs](https://github.com/user-attachments/assets/ea01cd12-3d41-4510-8d30-54eb26cedb92)
 
 Model bir önceki versiyondan daha iyi çalışıyor ve daha doğru çıktılar veriyor. Ayrıca etiket sayısı 101'den oluşuyor. Yani "bütün" yiyecekleri bilmesi zaten imkansız fakat yakın tahminleri oluşturabiliyor. Dahası, hızlı yanıtlar veriyor. İlk geliştirdiğim modelin mobil uygulamasını yapabilmek keyifliydi. Build çıktılarını almadım çünkü bu repo diğerleri gibi eğitim amaçlıdır. Herhangi bir yerde izinsiz yayınlanması yasaktır. Teşekkürler :)
